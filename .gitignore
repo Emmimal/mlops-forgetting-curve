@@ -1,0 +1,41 @@
+# Dataset files — download from Kaggle separately
+fraudTrain.csv
+fraudTest.csv
+
+# Generated charts
+fraud_charts/
+charts/
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# LightGBM
+*.txt.model
