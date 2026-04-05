@@ -34,7 +34,10 @@ The `ModelForgettingTracker` fits an exponential curve to your weekly metrics, c
 ## Quickstart
 
 ```bash
+git clone https://github.com/Emmimal/mlops-forgetting-curve
+cd mlops-forgetting-curve
 pip install -r requirements.txt
+python fraud_forgetting_demo.py
 ```
 
 **Against the Kaggle fraud dataset:**
